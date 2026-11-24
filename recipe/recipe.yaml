@@ -29,8 +29,8 @@ tests:
         - valijson/validator.hpp
       files:
         - if: win
-          then: Library/lib/cmake/valijson/valijsonConfig.cmake
-          else: lib/cmake/valijson/valijsonConfig.cmake
+          then: Library/share/cmake/valijson/valijsonConfig.cmake
+          else: share/cmake/valijson/valijsonConfig.cmake
 
 about:
   homepage: https://github.com/tristanpenman/valijson
